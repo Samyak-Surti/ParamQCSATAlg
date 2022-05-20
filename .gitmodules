@@ -1,0 +1,9 @@
+[submodule "OpenBLAS"]
+	path = OpenBLAS
+	url = https://github.com/xianyi/OpenBLAS
+[submodule "taskflow"]
+	path = taskflow
+	url = https://github.com/taskflow/taskflow
+[submodule "jet"]
+	path = jet
+	url = https://github.com/XanaduAI/jet
