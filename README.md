@@ -3,6 +3,6 @@ Implementation of algorithm to efficiently verify QCSAT instance with s total Qu
 
 **Step 1: Compute Sum of Paulis**
 * Methodology:
-    - Construct circuit of the form $\bra{0^m}U^{\dag}ZU\ket{0^m}$
+    - Construct circuit of the form $\bra{0^m}U^{\dagger}ZU\ket{0^m}$
 
 **Step 2: Perform Optimal Basis Change of Paulis**
