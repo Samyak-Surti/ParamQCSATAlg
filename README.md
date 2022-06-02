@@ -12,3 +12,5 @@ Implementation of algorithm to efficiently verify QCSAT instance with s total Qu
     - Extracting out sum of Paulis from contracted tensor (trying to figure this out)
 
 **Step 2: Perform Optimal Basis Change of Paulis**
+
+### *LOOK AT HOW TO COMPUTE STABILIZER RANK*
