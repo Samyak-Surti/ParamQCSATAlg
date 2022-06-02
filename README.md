@@ -13,4 +13,4 @@ Implementation of algorithm to efficiently verify QCSAT instance with s total Qu
 
 **Step 2: Perform Optimal Basis Change of Paulis**
 
-**Look at how to compute stabilizer rank**
+### *LOOK AT HOW TO COMPUTE STABILIZER RANK*
