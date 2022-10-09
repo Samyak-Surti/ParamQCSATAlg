@@ -1,0 +1,64 @@
+Qubit location of T-gates: [1, 2, 2, 2, 2, 2, 0, 2, 1, 0]
+Layer location of T-gates: [6 9]
+Layer 0:[(-1+0j) XYX]
+Generating Bases: {'-XYX': [0]}
+Curr Basis: [stim.PauliString("-XYX")]
+
+
+Layer 1:[(1-0j) X__]
+Generating Bases: {'-X__': [0]}
+Curr Basis: [stim.PauliString("-X__")]
+
+
+Layer 2:[(1+0j) XZZ]
+Generating Bases: {'+XZZ': [0]}
+Curr Basis: [stim.PauliString("+XZZ")]
+
+
+Layer 3:[(-1+0j) Y__]
+Generating Bases: {'-Y__': [0]}
+Curr Basis: [stim.PauliString("-Y__")]
+
+
+Layer 4:[(-1+0j) YXX]
+Generating Bases: {'+YXX': [0]}
+Curr Basis: [stim.PauliString("+YXX")]
+
+
+Layer 5:[(1-0j) YXX]
+Generating Bases: {'-YXX': [0]}
+Curr Basis: [stim.PauliString("-YXX")]
+
+
+X and Y count is: (0, 1)
+X_pos and Y_pos are: (None, 0)
+T-gate location: 0
+The current basis is: [stim.PauliString("+YXX"), stim.PauliString("-XXX")]
+Layer 6:[(-0.7071067811865475+0j) YXX] + [(0.7071067811865475+0j) XXX]
+Generating Bases: {'-YXX': [0], '-XXX': [1]}
+Curr Basis: [stim.PauliString("+YXX"), stim.PauliString("-XXX")]
+
+
+Layer 7:[(0.7071067811865475-0j) XZX] + [(0.7071067811865475+0j) ZZ_]
+Generating Bases: {'-XZX': [0], '+ZZ_': [1]}
+Curr Basis: [stim.PauliString("+XZX"), stim.PauliString("+ZZ_")]
+
+
+Layer 8:[(-0.7071067811865475+0j) YXY] + [(-0.7071067811865475+0j) XXY]
+Generating Bases: {'-YXY': [0], '-XXY': [1]}
+Curr Basis: [stim.PauliString("+YXY"), stim.PauliString("-XXY")]
+
+
+X and Y count is: (1, 1)
+X_pos and Y_pos are: (1, None)
+T-gate location: 0
+The current basis is: [stim.PauliString("-iZ__"), stim.PauliString("-XXY"), stim.PauliString("-YXY")]
+Layer 9:[(0.4999999999999999+0j) YXY] + [(-0.4999999999999999+0j) XXY] + [(-0.4999999999999999+0j) XXY] + [(-0.4999999999999999+0j) YXY]
+Generating Bases: {'-YXY': [0, 2], '-XXY': [0]}
+Curr Basis: [stim.PauliString("-iZ__"), stim.PauliString("-XXY"), stim.PauliString("-YXY")]
+
+
+Pauli Sum: [(0.4999999999999999+0j) YXY] + [(-0.4999999999999999+0j) XXY] + [(-0.4999999999999999+0j) XXY] + [(-0.4999999999999999+0j) YXY]
+Summand generating bases: {'-YXY': [0, 2], '-XXY': [0]}
+Basis: [stim.PauliString("-iZ__"), stim.PauliString("-XXY"), stim.PauliString("-YXY")]
+Succinct basis: [stim.PauliString("+Z__"), stim.PauliString("+XZ_"), stim.PauliString("+_XZ")]

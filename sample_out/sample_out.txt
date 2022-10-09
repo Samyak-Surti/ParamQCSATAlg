@@ -1,0 +1,69 @@
+Qubit location of T-gates: [4, 4, 3, 1, 2, 4, 3, 2, 1, 0]
+Layer location of T-gates: [2 3 9]
+Layer 0:[(-1+0j) XYZX_]
+Generating Bases: {'-XYZX_': [0]}
+Curr Basis: [stim.PauliString("-XYZX_")]
+
+
+Layer 1:[(1-0j) _XZYX]
+Generating Bases: {'-_XZYX': [0]}
+Curr Basis: [stim.PauliString("-_XZYX")]
+
+
+X and Y count is: (0, 1)
+X_pos and Y_pos are: (None, 0)
+T-gate location: 3
+The current basis is: [stim.PauliString("+_XZYX"), stim.PauliString("-_XZXX")]
+Layer 2:[(-0.7071067811865475+0j) _XZYX] + [(0.7071067811865475+0j) _XZXX]
+Generating Bases: {'-_XZYX': [0], '-_XZXX': [1]}
+Curr Basis: [stim.PauliString("+_XZYX"), stim.PauliString("-_XZXX")]
+
+
+X and Y count is: (2, 0)
+X_pos and Y_pos are: (0, 0)
+T-gate location: 1
+The current basis is: [stim.PauliString("+_XZYX"), stim.PauliString("+i___Z_"), stim.PauliString("+_YZYX")]
+Layer 3:[(-0.4999999999999999+0j) _XZYX] + [(0.4999999999999999+0j) _XZXX] + [(-0.4999999999999999+0j) _YZYX] + [(0.4999999999999999+0j) _YZXX]
+Generating Bases: {'-_XZYX': [0], '-_XZXX': [1, 0], '-_YZYX': [2], '-_YZXX': [1, 2]}
+Curr Basis: [stim.PauliString("+_XZYX"), stim.PauliString("+i___Z_"), stim.PauliString("+_YZYX")]
+
+
+Layer 4:[(-0.4999999999999999+0j) Y_ZZ_] + [(0.4999999999999999+0j) XYXXY] + [(-0.4999999999999999+0j) ZYZZX] + [(0.4999999999999999+0j) __XXZ]
+Generating Bases: {'+Y_ZZ_': [0], '+XYXXY': [1, 0], '+ZYZZX': [2], '+__XXZ': [1, 2]}
+Curr Basis: [stim.PauliString("-Y_ZZ_"), stim.PauliString("-iZYYYY"), stim.PauliString("-ZYZZX")]
+
+
+Layer 5:[(0.4999999999999999-0j) YYXXX] + [(0.4999999999999999+0j) XZXY_] + [(-0.4999999999999999+0j) Z_Y_Y] + [(-0.4999999999999999+0j) _XYZZ]
+Generating Bases: {'-YYXXX': [0], '+XZXY_': [1, 0], '+Z_Y_Y': [2], '-_XYZZ': [1, 2]}
+Curr Basis: [stim.PauliString("+YYXXX"), stim.PauliString("+iZX_ZX"), stim.PauliString("-Z_Y_Y")]
+
+
+Layer 6:[(0.4999999999999999+0j) XZX_Z] + [(0.4999999999999999+0j) ZZZZX] + [(-0.4999999999999999+0j) YZY_X] + [(-0.4999999999999999+0j) _Z_ZZ]
+Generating Bases: {'+XZX_Z': [0], '+ZZZZX': [1, 0], '+YZY_X': [2], '+_Z_ZZ': [1, 2]}
+Curr Basis: [stim.PauliString("-XZX_Z"), stim.PauliString("+iY_YZY"), stim.PauliString("-YZY_X")]
+
+
+Layer 7:[(-0.4999999999999999+0j) X_ZZ_] + [(-0.4999999999999999+0j) _ZZX_] + [(-0.4999999999999999+0j) Y_Z_X] + [(-0.4999999999999999+0j) ZZZYX]
+Generating Bases: {'-X_ZZ_': [0], '-_ZZX_': [1, 0], '+Y_Z_X': [2], '+ZZZYX': [1, 2]}
+Curr Basis: [stim.PauliString("+X_ZZ_"), stim.PauliString("-iXZ_Y_"), stim.PauliString("-Y_Z_X")]
+
+
+Layer 8:[(-0.4999999999999999+0j) YZZZY] + [(0.4999999999999999-0j) XZYY_] + [(0.4999999999999999-0j) Y_YXZ] + [(-0.4999999999999999+0j) X_Z_X]
+Generating Bases: {'+YZZZY': [0], '-XZYY_': [1, 0], '-Y_YXZ': [2], '+X_Z_X': [1, 2]}
+Curr Basis: [stim.PauliString("-YZZZY"), stim.PauliString("+iZ_XXY"), stim.PauliString("+Y_YXZ")]
+
+
+X and Y count is: (0, 2)
+X_pos and Y_pos are: (None, 0)
+T-gate location: 0
+The current basis is: [stim.PauliString("+YZZZY"), stim.PauliString("+iZ_XXY"), stim.PauliString("-i_ZXYX"), stim.PauliString("-XZZZY")]
+Layer 9:[(0.3535533905932737+0j) YZZZY] + [(0.3535533905932737+0j) XZYY_] + [(-0.3535533905932737+0j) Y_YXZ] + [(-0.3535533905932737+0j) X_Z_X] + [(-0.3535533905932737+0j) XZZZY] + [(0.3535533905932737+0j) YZYY_] + [(0.3535533905932737+0j) X_YXZ] + [(-0.3535533905932737+0j) Y_Z_X]
+Generating Bases: {'+YZZZY': [0], '-XZYY_': [1, 0], '-Y_YXZ': [2, 0], '+X_Z_X': [1, 2, 0], '+XZZZY': [3], '-YZYY_': [1, 3], '-X_YXZ': [2, 3], '+Y_Z_X': [1, 2, 3]}
+Curr Basis: [stim.PauliString("+YZZZY"), stim.PauliString("+iZ_XXY"), stim.PauliString("-i_ZXYX"), stim.PauliString("-XZZZY")]
+
+
+Pauli Sum: [(0.3535533905932737+0j) YZZZY] + [(0.3535533905932737+0j) XZYY_] + [(-0.3535533905932737+0j) Y_YXZ] + [(-0.3535533905932737+0j) X_Z_X] + [(-0.3535533905932737+0j) XZZZY] + [(0.3535533905932737+0j) YZYY_] + [(0.3535533905932737+0j) X_YXZ] + [(-0.3535533905932737+0j) Y_Z_X]
+Summand generating bases: {'+YZZZY': [0], '-XZYY_': [1, 0], '-Y_YXZ': [2, 0], '+X_Z_X': [1, 2, 0], '+XZZZY': [3], '-YZYY_': [1, 3], '-X_YXZ': [2, 3], '+Y_Z_X': [1, 2, 3]}
+Basis: [stim.PauliString("+YZZZY"), stim.PauliString("+iZ_XXY"), stim.PauliString("-i_ZXYX"), stim.PauliString("-XZZZY")]
+Number of basis elements: 4
+Succinct basis: [stim.PauliString("+Z____"), stim.PauliString("+XZ___"), stim.PauliString("+__Z__"), stim.PauliString("+__XZ_")]
