@@ -2,254 +2,169 @@ Layer 0:[(1+0j) Z__]
 Generating Bases: {'+Z__': [0]}
 Curr Basis: [stim.PauliString("+Z__")]
 +-xz-xz-xz-
-| +- -- --
-| _Z XY YY
-| __ Z_ XY
-| XZ XX XX
+| -- +- -+
+| _Z YZ X_
+| YY XZ ZZ
+| YZ ZX ZX
 
-Layer 1:[(-1+0j) Z_Z]
-Generating Bases: {'-Z_Z': [0]}
-Curr Basis: [stim.PauliString("-Z_Z")]
-+-xz-xz-xz-
-| +- ++ -+
-| XZ XX _X
-| _Z __ ZY
-| _Y ZX __
-
-Layer 2:[(-1+0j) YXY]
-Generating Bases: {'+YXY': [0]}
-Curr Basis: [stim.PauliString("+YXY")]
-+-xz-xz-xz-
-| -+ -- +-
-| X_ XZ __
-| ZX _X _Y
-| ZZ _Z ZX
-
-Layer 3:[(1-0j) __Y]
-Generating Bases: {'-__Y': [0]}
-Curr Basis: [stim.PauliString("-__Y")]
-+-xz-xz-xz-
-| -- ++ -+
-| XX X_ ZY
-| XY YY XX
-| Z_ XY XX
-
-Layer 4:[(1+0j) X__]
-Generating Bases: {'+X__': [0]}
-Curr Basis: [stim.PauliString("+X__")]
-+-xz-xz-xz-
-| -+ -- --
-| YY XZ X_
-| YZ XX X_
-| __ _Z YZ
-
-Layer 5:[(-1+0j) YY_]
-Generating Bases: {'-YY_': [0]}
-Curr Basis: [stim.PauliString("-YY_")]
-+-xz-xz-xz-
-| ++ -+ --
-| _Z X_ XY
-| XY ZY XZ
-| Y_ XX YZ
-
-Layer 6:[(-1+0j) YYY]
-Generating Bases: {'+YYY': [0]}
-Curr Basis: [stim.PauliString("+YYY")]
-T 2
-
-Layer 7:[(0.7071067811865475+0j) YYY] + [(-0.7071067811865475+0j) YYX]
-Generating Bases: {'+YYY': [0], '+YYX': [1]}
-Curr Basis: [stim.PauliString("-YYY"), stim.PauliString("+YYX")]
-T 2
-
-Layer 8:[(-0.4999999999999999+0j) YYY] + [(-0.4999999999999999+0j) YYX] + [(0.4999999999999999+0j) YYX] + [(-0.4999999999999999+0j) YYY]
-Generating Bases: {'+YYY': [0, 1, 2], '+YYX': []}
-Curr Basis: [stim.PauliString("-i__Z"), stim.PauliString("+YYX"), stim.PauliString("+YYY")]
-+-xz-xz-xz-
-| -- +- --
-| ZY Z_ X_
-| XX __ ZX
-| _X YX X_
-
-Layer 9:[(-0.4999999999999999+0j) ZYZ] + [(-0.4999999999999999+0j) ZZZ] + [(0.4999999999999999+0j) ZZZ] + [(-0.4999999999999999+0j) ZYZ]
-Generating Bases: {'+ZYZ': [0, 1, 2], '+ZZZ': []}
-Curr Basis: [stim.PauliString("+i_X_"), stim.PauliString("+ZZZ"), stim.PauliString("+ZYZ")]
-+-xz-xz-xz-
-| -- -- ++
-| _X _Z ZX
-| ZZ X_ ZX
-| YX ZY YZ
-
-[(-0.4999999999999999+0j) ZZZ] + [(-0.4999999999999999+0j) ZY_] + [(0.4999999999999999+0j) ZY_] + [(-0.4999999999999999+0j) ZZZ]
-{'+ZZZ': [0, 1, 2], '+ZY_': []}
------------------------------------------------------------
-Layer 0:[(1+0j) Z__]
-Generating Bases: {'+Z__': [0]}
-Curr Basis: [stim.PauliString("+Z__")]
-+-xz-xz-xz-
-| ++ ++ -+
-| XX ZX Y_
-| Z_ XY _Y
-| XY XY ZY
-
-Layer 1:[(1+0j) X_Y]
-Generating Bases: {'+X_Y': [0]}
-Curr Basis: [stim.PauliString("+X_Y")]
-+-xz-xz-xz-
-| -+ -- --
-| ZX Y_ __
-| YY _Y YZ
-| ZZ XZ _X
-
-Layer 2:[(1+0j) ZZY]
-Generating Bases: {'+ZZY': [0]}
-Curr Basis: [stim.PauliString("+ZZY")]
+Layer 1:[(-1+0j) ZYZ]
+Generating Bases: {'-ZYZ': [0]}
+Curr Basis: [stim.PauliString("-ZYZ")]
 +-xz-xz-xz-
 | +- -- +-
-| ZY YY XX
-| XY YX ZX
-| XZ _Y _Z
+| _Y ZX _Z
+| XZ XX _Z
+| YY Y_ YX
 
-Layer 3:[(1+0j) _XY]
-Generating Bases: {'+_XY': [0]}
-Curr Basis: [stim.PauliString("+_XY")]
-+-xz-xz-xz-
-| ++ -- --
-| Y_ ZZ ZY
-| _X _Z XZ
-| XY YZ YX
-
-Layer 4:[(-1+0j) YYX]
-Generating Bases: {'-YYX': [0]}
-Curr Basis: [stim.PauliString("-YYX")]
-T 2
-
-Layer 5:[(-0.7071067811865475+0j) YYX] + [(-0.7071067811865475+0j) YYY]
-Generating Bases: {'-YYX': [0], '-YYY': [1]}
-Curr Basis: [stim.PauliString("-YYX"), stim.PauliString("-YYY")]
+Layer 2:[(-1+0j) Z_X]
+Generating Bases: {'+Z_X': [0]}
+Curr Basis: [stim.PauliString("+Z_X")]
 +-xz-xz-xz-
 | ++ +- +-
-| Z_ Y_ ZX
-| XY YZ ZX
-| YY _Z ZX
+| __ ZZ XZ
+| __ XY Z_
+| XY __ __
 
-Layer 6:[(-0.7071067811865475+0j) YX_] + [(0.7071067811865475-0j) Z_X]
-Generating Bases: {'+YX_': [0], '-Z_X': [1]}
-Curr Basis: [stim.PauliString("+YX_"), stim.PauliString("-Z_X")]
+Layer 3:[(-1+0j) XZY]
+Generating Bases: {'+XZY': [0]}
+Curr Basis: [stim.PauliString("+XZY")]
 +-xz-xz-xz-
-| -- -- -+
-| ZZ XX XZ
-| XX ZY _X
-| YX __ Z_
+| -+ +- ++
+| XX ZY Z_
+| XZ YZ YX
+| _Y YZ _X
 
-Layer 7:[(0.7071067811865475-0j) XZZ] + [(-0.7071067811865475+0j) YXY]
-Generating Bases: {'-XZZ': [0], '-YXY': [1]}
-Curr Basis: [stim.PauliString("-XZZ"), stim.PauliString("-YXY")]
+Layer 4:[(1-0j) _XY]
+Generating Bases: {'-_XY': [0]}
+Curr Basis: [stim.PauliString("-_XY")]
 +-xz-xz-xz-
-| -+ -- -+
-| XZ ZY YX
-| XZ YY _X
-| XY X_ Z_
+| -- -+ -+
+| XY _Z ZZ
+| XX _X ZY
+| XX XY XX
 
-Layer 8:[(-0.7071067811865475+0j) YYX] + [(0.7071067811865475-0j) YXX]
-Generating Bases: {'-YYX': [0], '-YXX': [1]}
-Curr Basis: [stim.PauliString("-YYX"), stim.PauliString("-YXX")]
-T 1
-
-Layer 9:[(0.4999999999999999+0j) YYX] + [(0.4999999999999999+0j) YXX] + [(-0.4999999999999999+0j) YXX] + [(0.4999999999999999+0j) YYX]
-Generating Bases: {'-YYX': [0, 1, 2], '-YXX': []}
-Curr Basis: [stim.PauliString("+i_Z_"), stim.PauliString("-YXX"), stim.PauliString("-YYX")]
+Layer 5:[(-1+0j) _XX]
+Generating Bases: {'-_XX': [0]}
+Curr Basis: [stim.PauliString("-_XX")]
 +-xz-xz-xz-
-| ++ -- --
-| _Z _Z XY
-| Z_ YX XX
-| XZ ZZ YY
+| +- -- +-
+| _Y XZ XX
+| XX XY Z_
+| XY XY YX
 
-[(0.4999999999999999+0j) XX_] + [(0.4999999999999999+0j) Y_Z] + [(-0.4999999999999999+0j) Y_Z] + [(0.4999999999999999+0j) XX_]
-{'+XX_': [0, 1, 2], '+Y_Z': []}
+Layer 6:[(-1+0j) _YZ]
+Generating Bases: {'+_YZ': [0]}
+Curr Basis: [stim.PauliString("+_YZ")]
++-xz-xz-xz-
+| ++ +- +-
+| YX YZ XZ
+| ZZ ZY YY
+| _X ZX Z_
+
+Layer 7:[(1-0j) YZY]
+Generating Bases: {'-YZY': [0]}
+Curr Basis: [stim.PauliString("-YZY")]
+T 2
+
+Layer 8:[(-0.7071067811865475+0j) YZY] + [(0.7071067811865475+0j) YZX]
+Generating Bases: {'-YZY': [0], '-YZX': [1]}
+Curr Basis: [stim.PauliString("+YZY"), stim.PauliString("-YZX")]
+T 2
+
+Layer 9:[(0.4999999999999999+0j) YZY] + [(0.4999999999999999+0j) YZX] + [(-0.4999999999999999+0j) YZX] + [(0.4999999999999999+0j) YZY]
+Generating Bases: {'-YZY': [0, 1, 2], '-YZX': []}
+Curr Basis: [stim.PauliString("-i__Z"), stim.PauliString("-YZX"), stim.PauliString("-YZY")]
++-xz-xz-xz-
+| -+ -+ --
+| ZY X_ ZZ
+| _Z Z_ YX
+| ZZ YZ __
+
+[(0.4999999999999999+0j) X_Z] + [(0.4999999999999999+0j) YXZ] + [(-0.4999999999999999+0j) YXZ] + [(0.4999999999999999+0j) X_Z]
+{'+X_Z': [0, 1, 2], '+YXZ': []}
 -----------------------------------------------------------
 Layer 0:[(1+0j) Z__]
 Generating Bases: {'+Z__': [0]}
 Curr Basis: [stim.PauliString("+Z__")]
 +-xz-xz-xz-
-| -+ +- +-
-| XY YY X_
-| _Y __ XY
-| Y_ XZ Y_
+| +- -- --
+| XX _Y ZX
+| ZZ XY XX
+| ZY X_ _X
 
-Layer 1:[(1+0j) YY_]
-Generating Bases: {'+YY_': [0]}
-Curr Basis: [stim.PauliString("+YY_")]
+Layer 1:[(-1+0j) XZY]
+Generating Bases: {'-XZY': [0]}
+Curr Basis: [stim.PauliString("-XZY")]
 +-xz-xz-xz-
-| ++ ++ ++
-| XY ZY ZX
-| YY XZ X_
-| _Y YX _Z
+| ++ +- +-
+| YX _X _Y
+| XY XX Y_
+| YZ YX ZY
 
-Layer 2:[(-1+0j) YYX]
-Generating Bases: {'-YYX': [0]}
-Curr Basis: [stim.PauliString("-YYX")]
+Layer 2:[(-1+0j) XYY]
+Generating Bases: {'+XYY': [0]}
+Curr Basis: [stim.PauliString("+XYY")]
 +-xz-xz-xz-
-| -+ -- ++
-| XY XZ ZY
-| YY XZ Z_
-| X_ YX _Z
+| -- -- --
+| _X XY ZZ
+| ZZ XY _X
+| XY ZY XY
 
-Layer 3:[(1-0j) YXY]
-Generating Bases: {'-YXY': [0]}
-Curr Basis: [stim.PauliString("-YXY")]
+Layer 3:[(1-0j) ZXZ]
+Generating Bases: {'-ZXZ': [0]}
+Curr Basis: [stim.PauliString("-ZXZ")]
 T 1
 
-Layer 4:[(0.7071067811865475+0j) YXY] + [(0.7071067811865475+0j) YYY]
-Generating Bases: {'-YXY': [0], '-YYY': [1]}
-Curr Basis: [stim.PauliString("-YXY"), stim.PauliString("-YYY")]
-T 1
-
-Layer 5:[(0.4999999999999999+0j) YXY] + [(-0.4999999999999999+0j) YYY] + [(0.4999999999999999+0j) YYY] + [(0.4999999999999999+0j) YXY]
-Generating Bases: {'-YXY': [], '-YYY': [1, 0, 2]}
-Curr Basis: [stim.PauliString("-YXY"), stim.PauliString("+i_Z_"), stim.PauliString("-YYY")]
+Layer 4:[(0.7071067811865475+0j) ZXZ] + [(0.7071067811865475+0j) ZYZ]
+Generating Bases: {'-ZXZ': [0], '-ZYZ': [1]}
+Curr Basis: [stim.PauliString("-ZXZ"), stim.PauliString("-ZYZ")]
 +-xz-xz-xz-
-| -+ -- -+
-| _Y Z_ YX
-| _Y ZX XX
-| YZ _Y Y_
+| ++ -+ -+
+| X_ _X ZX
+| ZX _Z X_
+| _X XY __
 
-Layer 6:[(0.4999999999999999+0j) YXZ] + [(0.4999999999999999-0j) Y_X] + [(-0.4999999999999999+0j) Y_X] + [(0.4999999999999999+0j) YXZ]
-Generating Bases: {'+YXZ': [], '-Y_X': [1, 0, 2]}
-Curr Basis: [stim.PauliString("+YXZ"), stim.PauliString("-i_XY"), stim.PauliString("-Y_X")]
+Layer 5:[(0.7071067811865475+0j) XX_] + [(0.7071067811865475+0j) _YY]
+Generating Bases: {'+XX_': [0], '+_YY': [1]}
+Curr Basis: [stim.PauliString("+XX_"), stim.PauliString("+_YY")]
 +-xz-xz-xz-
-| -+ -- -+
-| ZZ Y_ XY
-| XX XZ Z_
-| ZX YY _Y
+| +- -+ ++
+| ZY Y_ ZZ
+| YZ _Y _Z
+| ZX XZ ZY
 
-Layer 7:[(-0.4999999999999999+0j) _XY] + [(0.4999999999999999+0j) XZY] + [(-0.4999999999999999+0j) XZY] + [(-0.4999999999999999+0j) _XY]
-Generating Bases: {'-_XY': [], '+XZY': [1, 0, 2]}
-Curr Basis: [stim.PauliString("-_XY"), stim.PauliString("+iXY_"), stim.PauliString("+XZY")]
+Layer 6:[(-0.7071067811865475+0j) XYY] + [(-0.7071067811865475+0j) YXZ]
+Generating Bases: {'-XYY': [0], '-YXZ': [1]}
+Curr Basis: [stim.PauliString("-XYY"), stim.PauliString("-YXZ")]
 +-xz-xz-xz-
-| -+ -+ --
-| YY YY ZX
-| XY YY ZZ
-| Z_ YX __
+| -+ -- +-
+| X_ _X ZX
+| XZ ZZ __
+| Y_ XZ X_
 
-Layer 8:[(0.4999999999999999-0j) _YY] + [(-0.4999999999999999+0j) YZY] + [(0.4999999999999999-0j) YZY] + [(0.4999999999999999-0j) _YY]
-Generating Bases: {'-_YY': [], '-YZY': [1, 0, 2]}
-Curr Basis: [stim.PauliString("-_YY"), stim.PauliString("+iYX_"), stim.PauliString("-YZY")]
+Layer 7:[(-0.7071067811865475+0j) YXX] + [(-0.7071067811865475+0j) _XZ]
+Generating Bases: {'+YXX': [0], '+_XZ': [1]}
+Curr Basis: [stim.PauliString("+YXX"), stim.PauliString("+_XZ")]
 +-xz-xz-xz-
-| +- -- -+
-| ZX ZY ZX
-| X_ XY _Z
-| _X YZ Y_
+| +- +- ++
+| _Z Y_ YX
+| _Z XZ _Z
+| XY __ XX
 
-Layer 9:[(-0.4999999999999999+0j) Z_Z] + [(-0.4999999999999999+0j) Y__] + [(0.4999999999999999+0j) Y__] + [(-0.4999999999999999+0j) Z_Z]
-Generating Bases: {'-Z_Z': [], '+Y__': [1, 0, 2]}
-Curr Basis: [stim.PauliString("-Z_Z"), stim.PauliString("+iX_Z"), stim.PauliString("+Y__")]
+Layer 8:[(0.7071067811865475-0j) ZYY] + [(0.7071067811865475-0j) ZYX]
+Generating Bases: {'-ZYY': [0], '-ZYX': [1]}
+Curr Basis: [stim.PauliString("-ZYY"), stim.PauliString("-ZYX")]
+T 2
+
+Layer 9:[(-0.4999999999999999+0j) ZYY] + [(0.4999999999999999+0j) ZYX] + [(0.4999999999999999+0j) ZYX] + [(0.4999999999999999+0j) ZYY]
+Generating Bases: {'-ZYY': [0, 1, 2], '-ZYX': []}
+Curr Basis: [stim.PauliString("+i__Z"), stim.PauliString("-ZYX"), stim.PauliString("-ZYY")]
 +-xz-xz-xz-
-| ++ -- +-
-| X_ __ XY
-| _Y XZ _Y
-| YZ YY _Z
+| +- ++ ++
+| ZY Z_ Y_
+| Y_ __ ZY
+| _Y XY Y_
 
-[(-0.4999999999999999+0j) Y__] + [(0.4999999999999999-0j) XYX] + [(-0.4999999999999999+0j) XYX] + [(-0.4999999999999999+0j) Y__]
-{'+Y__': [], '-XYX': [1, 0, 2]}
+[(0.4999999999999999-0j) ZXZ] + [(-0.4999999999999999+0j) ZZZ] + [(-0.4999999999999999+0j) ZZZ] + [(-0.4999999999999999+0j) ZXZ]
+{'-ZXZ': [0, 1, 2], '-ZZZ': []}
 -----------------------------------------------------------
