@@ -7,3 +7,6 @@
 [submodule "jet"]
 	path = jet
 	url = https://github.com/XanaduAI/jet
+[submodule "Galois"]
+	path = Galois
+	url = https://github.com/Glank/Galois.git
