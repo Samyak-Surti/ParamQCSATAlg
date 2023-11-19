@@ -3,6 +3,9 @@
 Additionally, we implemented a greedy algorithm to compute the approximate stabilizer rank of optimal input states for QCSAT instances.
 
 ### Acknowledgements:
+* [stim](https://github.com/quantumlib/Stim)
 * [XanaduAI](https://github.com/XanaduAI/jet)
 * [OpenBLAS](https://github.com/OpenMathLib/OpenBLAS)
-* 
+* [taskflow](https://github.com/taskflow/taskflow)
+* Nathan Ju (EECS Theory Group, University of California - Berkeley)
+* Chinmay Nirkhe (University of Washington)
